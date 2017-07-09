@@ -1,0 +1,21 @@
+
+Wiki-Viewer
+
+Originally posted project on CodePen back in April 2017
+**https://codepen.io/jcode2/pen/RpveVJ**
+
+About:
+    A web application that allows a user to search anything they like using the input form.
+    Once entered the user will have a list of "preview cards" displayed back to them related to their search.
+
+
+Technologies used:  1. HTML
+                    2. CSS
+                    3. Bootstrap
+                    4. Javascript
+                    5. jQuery
+                    6. Used AJAX requests with the Wikipedia API.
+                    7. Originally used Babel along side the Javascript
+
+What can be improved: 1. Mobile Responsiveness.
+                      2. Allowing the user to hit the enter button instead of exclusively having to click the search button

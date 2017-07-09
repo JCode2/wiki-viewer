@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="jumbotron">
+    <h1 class="text-center">search bar</h1>
+</div>
+<div class="center">
+    <form>
+        <div class="input-group">
+            <input id="searchTerm" type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+                <button id="search" class="btn btn-default" type="button">search
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container">
+    <ul class="list" id="results"></ul>
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</html>
